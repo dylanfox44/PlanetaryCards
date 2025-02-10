@@ -10,7 +10,8 @@ body {
     color: var(--main-type);
     background: var(--main-bg);
     text-align: center;
-    margin: 0 20%;
+    margin: 0 10%;
+    padding-bottom: 20px;
 }
 
 h1 {
@@ -51,6 +52,10 @@ p {
     background: var(--card-color);
     border-radius: 20px;
     padding-top: 10px;
+}
+
+.card:hover {
+    background-color: rgba(51, 51, 51, 0.5);
 }
 
 .card:nth-child(1) {
