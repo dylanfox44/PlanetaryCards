@@ -31,7 +31,7 @@ main {
     color: var(--alt-type);
     border-radius: 20px;
     padding-top: 10px;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .card:nth-child(1) {
@@ -39,10 +39,19 @@ main {
     grid-column: 1 / 2;
 } 
 
-.planet {
-    height: 50px;
-    width: 50px;
+.star {
+    height: 200px;
+    width: 200px;
     background-color: white;
     border-radius: 50%;
+    margin: auto;
+}
+
+.planet {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border-radius: 50%;
+    margin: auto;
 }
 
